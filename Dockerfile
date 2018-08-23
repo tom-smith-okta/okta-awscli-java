@@ -12,7 +12,4 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /var/lib/apt/lists/*
 
 # install okta-aws-cli-assume-role tool
-# at the moment (August 2018) the release version of the okta-aws-cli-assume-role tool is hard-coded
-# in the install.sh script
-# version 1.0.3
-RUN curl 'https://raw.githubusercontent.com/tom-smith-okta/okta-aws-cli-assume-role/master/bin/install.sh' | bash
+RUN curl 'https://raw.githubusercontent.com/oktadeveloper/okta-aws-cli-assume-role/master/bin/install.sh' | bash
