@@ -7,6 +7,7 @@ The image includes all of the prerequisites required to run the tool; you just n
 The image does not compile the source for the aws-cli-assume-role tool. It relies on published releases in the github repo.
 
 ## Prerequisites
+
 * Docker
 * An AWS account
 * An Okta tenant
